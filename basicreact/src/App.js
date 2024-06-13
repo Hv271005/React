@@ -1,7 +1,10 @@
-
+import Hello from "./Hello";
 function App() {
   return (
-    <h1>Chai aur React | Himanshu Verma</h1>
+    <>
+    <Hello />
+    {/* <h1>Hello to React | Himanshu Verma</h1> */}
+    </>
   );
 }
 
