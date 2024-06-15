@@ -7,13 +7,17 @@ function App() {
   const [counter, setCounter] = useState(5);
 
   const addValue = () => {
-    if (counter < 20) setCounter(counter + 1);
-    else alert("DECREASE VALUE");
+    setCounter((prevCounter=> prevCounter+1))
+    setCounter(counter+1)
+    setCounter(counter+1)
+    setCounter(counter+1)
   };
 
   const decValue = () => {
-    if (counter > 0) setCounter(counter - 1);
-    else alert("ADD VALUE")
+      setCounter((prevCounter=>prevCounter-1))
+      setCounter(counter-1)
+      setCounter(counter-1)
+      setCounter(counter-1)
   };
 
   return (
